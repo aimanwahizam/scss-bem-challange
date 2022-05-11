@@ -36,8 +36,8 @@
     border-radius: 0.25rem;
     padding: 2px;
 
-    &--sale {
-      background-color: turquoise;
+    &--active {
+      background-color: $active-color;
     }
   }
 

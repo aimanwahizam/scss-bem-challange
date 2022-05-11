@@ -58,7 +58,7 @@ img {
   border-radius: 0.25rem;
   padding: 2px;
 }
-.content__link--sale {
+.content__link--active {
   background-color: turquoise;
 }
 .content__paragraph {
