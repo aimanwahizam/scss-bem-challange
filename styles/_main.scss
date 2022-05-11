@@ -1,0 +1,64 @@
+@use "./variables" as *;
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  height: 50vh;
+  margin-left: 50px;
+  margin-right: 50px;
+
+  &__heading {
+    font-family: $primary-font;
+    font-size: $font-big;
+  }
+
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+  }
+
+  &__linkbar {
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: $black-color;
+    font-size: $font-small;
+    font-family: $secondary-font;
+    background-color: $grey-color;
+    border-radius: 0.25rem;
+    padding: 2px;
+
+    &--sale {
+      background-color: turquoise;
+    }
+  }
+
+  &__paragraph {
+    font-family: $secondary-font;
+    opacity: $font-opacity;
+    font-size: $font-body;
+  }
+
+  &__button {
+    font-family: $primary-font;
+    font-size: $font-body;
+    height: 3rem;
+    width: 6rem;
+    margin-right: 15px;
+    color: $white-color;
+    background-color: $black-color;
+  }
+
+  &__button--white {
+    background-color: $white-color;
+    color: $black-color;
+  }
+}

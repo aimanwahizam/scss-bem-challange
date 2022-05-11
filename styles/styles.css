@@ -4,14 +4,78 @@
   margin: 0;
 }
 
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .card {
+  border: 1px solid black;
+  width: 70vh;
+  height: 100vh;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+body .card--germany {
+  border: 2px solid #00FFB2;
+}
+
 img {
   width: 100%;
   height: 50vh;
 }
 
-main h1 {
-  font-family: "Space Mono", "Roboto Mono", sans-serif;
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  height: 50vh;
+  margin-left: 50px;
+  margin-right: 50px;
 }
-main p {
+.content__heading {
+  font-family: "Space Mono", "Roboto Mono", sans-serif;
+  font-size: 1.5rem;
+}
+.content__nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+.content__linkbar {
+  display: flex;
+  justify-content: space-evenly;
+  width: 60%;
+}
+.content__link {
+  text-decoration: none;
+  color: black;
+  font-size: 0.8rem;
   font-family: "Roboto Mono", "Space Mono", sans-serif;
+  background-color: grey;
+  border-radius: 0.25rem;
+  padding: 2px;
+}
+.content__link--sale {
+  background-color: turquoise;
+}
+.content__paragraph {
+  font-family: "Roboto Mono", "Space Mono", sans-serif;
+  opacity: 80%;
+  font-size: 0.7rem;
+}
+.content__button {
+  font-family: "Space Mono", "Roboto Mono", sans-serif;
+  font-size: 0.7rem;
+  height: 3rem;
+  width: 6rem;
+  margin-right: 15px;
+  color: white;
+  background-color: black;
+}
+.content__button--white {
+  background-color: white;
+  color: black;
 }/*# sourceMappingURL=styles.css.map */
